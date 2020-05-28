@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+#container{
+    background-color: white;
+    width:1000px;
+    height:550px;
+    margin:60px auto;
+}
+#calci{
+    background-color:lightgrey;
+    width:320px;
+    height:520px;
+    margin:0 auto;
+    top:15px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px red,0 6px 20px red;
+}
+#result{
+    background-color: grey;
+    width:300px;
+    height:80px;
+    margin:10 auto;
+    top:30px;
+    position:relative;
+    border-radius: 10px;;
+}
+#history{
+    text-align:right;
+    height:20px;
+    margin:30 20px;
+    font-size: 20px;
+    color:rgb(216, 216, 153);
+   
+}
+#output{
+    text-align:right;
+    height:60px;
+     margin:20px ;
+     font-size:30px;
+     color:white;
+}
+#keyboard{
+    background-color:silver;
+    top:50px;
+    height:350px;
+    width:280px;
+    margin: 0 auto;
+    position:relative;
+    border:none;
+    border-radius: 30px;
+}
+.operator, .number, .empty{
+    width:70px;
+    height:70px;
+    float:left;
+    font-size: 30px;
+   
+}
+.empty{
+    background-color:lightgray;
+    border:none;
+
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline:0;
+}
+.number:hover{
+    background-color: lightpink;
+}
+.operator:hover{
+    background-color:rgb(233, 233, 116);
+}
